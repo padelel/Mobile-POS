@@ -26,7 +26,7 @@ public class AddCustomer extends AppCompatActivity {
     EditText addName, addEmail, addAddress, addPhone;
     Button btn_Add, btnBack;
 
-    private FirebaseFirestore db = FirebaseFirestore.getInstance();
+    //private FirebaseFirestore db = FirebaseFirestore.getInstance();
     private ProgressDialog progressDialog;
     private String id = "";
 
